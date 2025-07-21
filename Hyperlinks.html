@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyperlinks</title>
+
+    <!-- Internal Style Sheet -->
+    <style>
+      body {
+        background-color: whitesmoke;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        color: salmon;
+        text-align: center;
+      }
+      p {
+        color: brown;
+        font-weight: bold;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hyperlinks in HTML</h1>
+    <hr style="border: 2px solid teal" /> <!--inline style-->
+    
+    <!-- Bullets -->
+    <ul>
+      <li><a href="#internal">Internal HyperLink</a></li>
+      <li><a href="https://www.google.com">External HyperLink</a></li>
+      <li>Mozilla FireFox</li>
+    </ul>
+
+    <p>
+      Hyperlinks are one of the most exciting innovations the Web has to offer.
+      They've been a feature of the Web since the beginning, and are what makes
+      the Web a web. Hyperlinks allow us to link documents to other documents or
+      resources, link to specific parts of documents, or make apps available at
+      a web address. Almost any web content can be converted to a link so that
+      when clicked or otherwise activated the web browser goes to another web
+      address (URL).
+    </p>
+
+    <img src="images/html.png" alt="Image Not available" height="250px" />
+
+    <!-- Define Bookmark -->
+    <h2 id="external">External HyperLink</h2>
+    <p>
+      External Links are hyperlinks that point at (target) any domain other than
+      the domain the link exists on (source). In layman's terms, if another
+      website links to you, this is considered an external link to your site.
+      Similarly, if you link out to another website, this is also considered an
+      external link.
+    </p>
+
+    <a href="https://www.coforge.com">Visit Coforge</a>
+    <br />
+
+    <a href="https://firefox.com">
+      <img src="images/Firefox_logo.png" alt="Firefox Logo" height="200px" />
+      <p style="text-align: center">Visit Firefox</p>
+    </a>
+
+    <h2 id="internal">Internal HyperLink</h2>
+
+    <p>
+      HTML internal link is linked within the same web page. This link can be an
+      absolute path or relative path. HTML internal link name is followed by the
+      hash sign(#). You have to assign an id to refer section of your page,
+      which is referred to as an internal link to the same page. When you click
+      on an internal anchor link, you will scroll automatically to the referred
+      section and display it on your browser.
+    </p>
+  </body>
+</html>
